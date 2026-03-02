@@ -1,6 +1,7 @@
 const numero1 = document.getElementById("nota1")
 const numero2 = document.getElementById("nota2")
 const button = document.getElementById("button")
+const resultado = document.getElementById("resultado")
 
 function calcularMedia(){
     const nota1 = Number(numero1.value)
@@ -8,7 +9,7 @@ function calcularMedia(){
 
     const media = (nota1 + nota2)/2
 
-    console.log(media)
+    resultado.innerHTML = `A média é ${media}`
 }
 
 button.addEventListener("click", calcularMedia)
