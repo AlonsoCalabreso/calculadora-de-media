@@ -9,7 +9,7 @@ function calcularMedia(){
 
     const media = (nota1 + nota2)/2
 
-    resultado.innerHTML = `A média é ${media}`
+    resultado.innerHTML = `A média é ${media.toFixed(2)}`
 }
 
 button.addEventListener("click", calcularMedia)
