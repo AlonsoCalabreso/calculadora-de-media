@@ -1,19 +1,58 @@
-.container{
-    display:flex;
-    border: 1px solid #000;
-    width: 320px;
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6A5ACD, #6495ED);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 340px;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
     flex-direction: column;
-    margin: auto;
-    height: 500px;
-    gap: 12px;
+    gap: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
-.caixa{
-    height: 40px;
+
+
+.box {
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 12px;
+    background-color: #f2f2f2;
+    font-size: 15px;
 }
 
-#button{
-    height: 40px;
-    background-color: #00F4FC;
-    color: #fff;
+
+
+#button {
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6A5ACD;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+#resultado {
+    background-color: #f8f8f8;
+    height: 45px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #333;
 }
