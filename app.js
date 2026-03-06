@@ -22,7 +22,7 @@ function calcularMedia(){
     if(media2 < 5){
     resultado.innerHTML = `Sua média é ${media2.toFixed(2)}, Você foi reprovado`
     }else{
-        resultado.innerHTML = `Sua média é ${media1.toFixed(2)}, Você foi aprovado`
+        resultado.innerHTML = `Sua média é ${media2.toFixed(2)}, Você foi aprovado`
     }
 }
 
